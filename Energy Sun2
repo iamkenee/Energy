@@ -8,7 +8,7 @@
   <elecSel>true</elecSel>
   <energySel>true</energySel>
   <heatSel>true</heatSel>
-  <fuelSel>true</fuelSel>
+  <fuelSel>true</fuelSel> 
   <years>
     <year value="2020">
       <sectors>
