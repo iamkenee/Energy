@@ -3,6 +3,40 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <div style="text-align:top-center">
+        <label onclick="YEAR()">YEAR</label>
+        <select name="YEAR" id="YEAR">
+            <option value="2050">2050</option>
+            <option value="2045">2045</option>
+            <option value="2040">2040</option>
+            <option value="2035">2035</option>
+            <option value="2030">2030</option>
+            <option value="2025">2025</option>
+            <option value="2020">2020</option>
+            <option value="2015">2015</option>
+            <option value="2010">2010</option>
+            <option value="2005">2005</option>
+            <option value="2000">2000</option>
+            <option value="1995">1995</option>
+            <option value="1990">1990</option>
+        </select>
+        <label onclick="DIFFICULTY()">DIFFICULTY</label>
+        <select name="DIFFICULTY" id="DIFFICULTY">
+            <option value="VERY EASY">VERY EASY</option>
+            <option value="EASY">EASY</option>
+            <option value="MEDIUM">MEDIUM</option>
+            <option value="HARD">HARD</option>
+            <option value="VERY HARD">VERY HARD</option> 
+        </select>
+        <button onclick="NEW GAME()">NEW GAME</button>
+        <button onclick="SAVE GAME()">SAVE GAME</button>
+        <button onclick="LOAD GAMEl()">LOAD GAME</button>
+        <br><br>
+
+
+    </div>
+
     <style>
         canvas {
             border: 1px solid #000000;
@@ -12,6 +46,7 @@
 </head>
 
 <body onload="startGame()">
+
     <script>
         function startGame() {
             myGameArea.start();
@@ -23,7 +58,13 @@
                 this.canvas.width = 880;
                 this.canvas.height = 770;
                 this.context = this.canvas.getContext("2d");
+                this.context.font = "bold 32px Arial";
+                this.context.textAlign = "middle";
+                this.context.textBaseline = "center";
+                this.context.fillStyle = "black";
+                this.context.fillText("THE ENERGY GAME", 150, 100);
                 document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+
             }
         }
     </script>
