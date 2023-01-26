@@ -3,10 +3,16 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <div style="text-align:top-center">
-        <label onclick="YEAR()">YEAR</label>
-        <select name="YEAR" id="YEAR">
+    <style>
+        canvas {
+            border: 1px solid #000000;
+            background-color: #ECFFDC;
+        }
+    </style>
+    <div id="total">
+        <div style="text-align:top-center">
+            <label onclick="YEAR()">YEAR</label>
+            <select name="YEAR" id="YEAR">
             <option value="2050">2050</option>
             <option value="2045">2045</option>
             <option value="2040">2040</option>
@@ -21,28 +27,28 @@
             <option value="1995">1995</option>
             <option value="1990">1990</option>
         </select>
-        <label onclick="DIFFICULTY()">DIFFICULTY</label>
-        <select name="DIFFICULTY" id="DIFFICULTY">
+            <label onclick="DIFFICULTY()">DIFFICULTY</label>
+            <select name="DIFFICULTY" id="DIFFICULTY">
             <option value="VERY EASY">VERY EASY</option>
             <option value="EASY">EASY</option>
             <option value="MEDIUM">MEDIUM</option>
             <option value="HARD">HARD</option>
             <option value="VERY HARD">VERY HARD</option> 
         </select>
-        <button onclick="NEW GAME()">NEW GAME</button>
-        <button onclick="SAVE GAME()">SAVE GAME</button>
-        <button onclick="LOAD GAMEl()">LOAD GAME</button>
-        <br><br>
+            <button onclick="NEW GAME()">NEW GAME</button>
+            <button onclick="SAVE GAME()">SAVE GAME</button>
+            <button onclick="LOAD GAMEl()">LOAD GAME</button>
+            <br><br>
+
+            <input type="checkbox" id="myCheck" onchange="myFunction();">Objectives
+            <script>
+                var myCheck = document.getElementById("myCheck");
+                if (myCheck.checked) { /* code to execute if box is checked */ }
+            </script>
+
+        </div>
 
 
-    </div>
-
-    <style>
-        canvas {
-            border: 1px solid #000000;
-            background-color: #ECFFDC;
-        }
-    </style>
 </head>
 
 <body onload="startGame()">
@@ -59,10 +65,10 @@
                 this.canvas.height = 770;
                 this.context = this.canvas.getContext("2d");
                 this.context.font = "bold 32px Arial";
-                this.context.textAlign = "middle";
-                this.context.textBaseline = "center";
+                this.context.textAlign = "top";
+                this.context.textBaseline = "top";
                 this.context.fillStyle = "black";
-                this.context.fillText("THE ENERGY GAME", 150, 100);
+                this.context.fillText("THE ENERGY GAME", 275, 50);
                 document.body.insertBefore(this.canvas, document.body.childNodes[0]);
 
             }
