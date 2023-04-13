@@ -1,0 +1,156 @@
+.obj {
+    display: grid;
+    grid-auto-columns: 1fr;
+    width: 540px;
+    background-color: #f6e1c3;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.grid-items {
+    grid-row: 1;
+}
+
+.grid-item {
+    display: flex;
+}
+
+.content {
+    display: grid;
+    grid-auto-columns: 1fr;
+    margin-left: 11.3rem;
+    margin-right: 11.3rem;
+    margin-top: 2rem;
+}
+
+.content-grid {
+    grid-row: 1;
+}
+
+.topGridItem {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.imgGrid {
+    position: relative;
+}
+
+.imgTopGrid {
+    position: relative;
+    bottom: -20px;
+    left: -8px;
+}
+
+.fuelImage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 180px;
+    width: 80px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.square {
+    height: 50px;
+    width: 20px;
+    background-color: #555;
+    border: black;
+}
+
+.cube {
+    position: absolute;
+    width: 25px;
+    transform-style: preserve-3d;
+    /* add this line */
+}
+
+.side {
+    height: 385px;
+    line-height: 95px;
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    /* add this line */
+}
+
+.left {
+    background: #2db34a;
+    border: solid 1px black;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.right {
+    border: solid 1px black;
+    background: #26973e;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.bottom {
+    background: #33cc54;
+    border: solid 1px black;
+    position: absolute;
+    height: 25px;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.threeImages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.threeImagesItem {
+    padding-right: 100px;
+}
+
+.green {
+    background-color: green;
+}
+
+.lowerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fuelImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center {
+    background-color: #f6e1c3;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1pt solid black;
+}
+
+.tr {
+    border: 1px solid black;
+}
+
+.td {
+    padding: 40px;
+}
+
+.td1 {
+    padding: 90px;
+}
+
+.td2 {
+    padding: 70px;
+}
+
+.td3 {
+    padding: 30px;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
