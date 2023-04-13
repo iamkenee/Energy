@@ -1,0 +1,113 @@
+body {
+    color: #fff;
+    font: 600 24px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    margin: 12px 45px;
+}
+
+.cube1 {
+    position: absolute;
+    width: 25px;
+    transform-style: preserve-3d;
+    /* add this line */
+}
+
+.side {
+    height: 385px;
+    line-height: 95px;
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    /* add this line */
+}
+
+.left {
+    background: #2db34a;
+    border: solid 1px black;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.right {
+    border: solid 1px black;
+    background: #26973e;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.bottom {
+    background: #33cc54;
+    border: solid 1px black;
+    position: absolute;
+    height: 25px;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.cube2 {
+    position: absolute;
+    width: 25px;
+    transform-style: preserve-3d;
+    /* add this line */
+}
+
+.side {
+    height: 385px;
+    line-height: 95px;
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    /* add this line */
+}
+
+.left {
+    background: #2db34a;
+    border: solid 1px black;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.right {
+    border: solid 1px black;
+    background: #26973e;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.bottom {
+    background: #33cc54;
+    border: solid 1px black;
+    position: absolute;
+    height: 25px;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.cube3 {
+    position: absolute;
+    width: 25px;
+    transform-style: preserve-3d;
+    /* add this line */
+}
+
+.side {
+    height: 385px;
+    line-height: 95px;
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    /* add this line */
+}
+
+.left {
+    background: #2db34a;
+    border: solid 1px black;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.right {
+    border: solid 1px black;
+    background: #26973e;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.bottom {
+    background: #33cc54;
+    border: solid 1px black;
+    position: absolute;
+    height: 25px;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
