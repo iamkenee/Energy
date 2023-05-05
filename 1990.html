@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ENERGY GAME</title>
+    <title>THE ENERGY GAME</title>
 
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -19,25 +19,21 @@
             <h1 style="text-align: center">THE ENERGY GAME</h1>
         </div>
 
+
         <form>
             <div class="nav" style="display: flex; justify-content: space-evenly">
                 <div class="year">
                     <label>YEAR</label>
                     <br />
-                    <select name="list" id="list" accesskey="target">
-                <option value="2050">2050</option>
-                <option value="2040">2040</option>
-                <option value="2030">2030</option>
-                <option value="2020">2020</option>
-                <option value="2010">2010 (read only)</option>
-                <option value="2000">2000 (read only)</option>
-                <option value="1990">1990 (read only)</option>
-                
-                <div class="nav-content">
-                    <a rel="noopener" target="1990" href="1990.html">1990</a>
-                    <a rel="noopener" target="_blank" href="https://academy.hubspot.com/">Academy</a>
-                    <a rel="noopener" target="_blank" href="https://www.youtube.com/user/hubspot">YouTube</a>
-                
+                    <select name="select" onChange="window.open(this.options[this.selectedIndex].value,'_blank'); return false"> 
+                <option value="2050.html">2050</option>
+                <option value="2040.html">2040</option>
+                <option value="index.html">2030</option>
+                <option value="2020.html">2020 (read only)</option>
+                <option value="2010.html">2010 (read only)</option>
+                <option value="2000.html">2000 (read only)</option>
+                <option value="1990.html">1990 (read only)</option>
+            
                 
                 </div>
                 
@@ -47,9 +43,10 @@
         </div>
 
         <div class="diff">
+            <form action="/action_page.php"></form>
             <label>DIFFICULTY</label>
             <br />
-            <select name="" id="">
+            <select name="years" id="years" disabled>
           <option value="easy">VERY EASY</option>
           <option value="EASY">EASY</option>
           <option value="MEDIUM">MEDIUM</option>
@@ -58,44 +55,44 @@
         </select>
         </div>
 
-        <!-- obejctives  -->
+        <!-- objectives  -->
 
         <div>
-            <label>ACTUAL</label>
+            <label>OBJECTIVES</label>
             <br />
             <div class="obj">
                 <div class="grid-items">
-                    <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                    <div class="grid-item" disabled>
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>BUDGET LIMIT</span>
                     </div>
 
                     <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>OIL LIMIT</span>
                     </div>
 
                     <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>GREEN HOUSE GAS LIMIT </span>
                     </div>
                 </div>
 
                 <div class="grid-items">
                     <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>FUEL MINIMUM</span>
                     </div>
                     <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>ELECTRICITY MINIMUM</span>
                     </div>
                     <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>HEAT MINIMUM</span>
                     </div>
                     <div class="grid-item">
-                        <input type="checkbox" name="" id="" checked />
+                        <input type="checkbox" name="" id="" checked disabled/>
                         <span>TOTAL ENERGY MINIMUM</span>
                     </div>
                 </div>
@@ -104,9 +101,9 @@
 
         <!-- play buttons -->
         <div>
-            <button id="new-game-button">NEW GAME</button>
-            <button id="load-game-button">LOAD GAME</button>
-            <button id="save-game-button">SAVE GAME</button>
+            <button id="new-game-button" onclick="newGame()">NEW GAME</button>
+            <button id="load-game-button" onclick="loadGame()">LOAD GAME</button>
+            <button id="save-game-button" onclick="saveGame();">SAVE GAME</button>
         </div>
         </div>
 
@@ -115,7 +112,7 @@
             <div class="energy">
                 <label>ENERGY SECTOR</label>
                 <br />
-                <select name="" id="">
+                <select name="" id="" disabled>
           <option value="energy">VEHICLE FUEL</option>
           <option value="energy">ELECTRICITY</option>
           <option value="energy">HEAT</option>
@@ -130,36 +127,36 @@
                 <!-- top grid -->
                 <div class="gridItem">
                     <div class="topGridItem">
-                        <img class="imgGrid" src="./images/sprites/37.png" alt="" srcset="" />
-                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" />
+                        <img class="imgGrid" src="./images/sprites/37.png" alt="" srcset="" hidden/>
+                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" hidden/>
                         <span style="color:black">   </span>
                         <span style="color:green; font-weight:bold">   </span>
                     </div>
 
                     <div class="topGridItem">
-                        <img class="imgGrid" src="./images/shapes/73.png" alt="" srcset="" />
-                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" />
+                        <img class="imgGrid" src="./images/shapes/73.png" alt="" srcset="" hidden/>
+                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" hidden/>
                         <span style="color:black">             </span>
                         <span style="color:green; font-weight:bold">   </span>
                     </div>
 
                     <div class="topGridItem">
-                        <img class="imgGrid" src="./images/shapes/67.png" alt="" srcset="" />
-                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" />
+                        <img class="imgGrid" src="./images/shapes/67.png" alt="" srcset="" hidden/>
+                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" hidden/>
                         <span style="color:black">                   </span>
                         <span style="color:green; font-weight:bold">   </span>
                     </div>
 
                     <div class="topGridItem">
-                        <img class="imgGrid" src="./images/shapes/79.png" alt="" srcset="" />
-                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" />
+                        <img class="imgGrid" src="./images/shapes/79.png" alt="" srcset="" hidden/>
+                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" hidden/>
                         <span style="color:black">           </span>
                         <span style="color:green; font-weight:bold">   </span>
                     </div>
 
                     <div class="topGridItem">
-                        <img class="imgGrid" src="./images/shapes/65.png" alt="" srcset="" />
-                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" />
+                        <img class="imgGrid" src="./images/shapes/65.png" alt="" srcset="" hidden/>
+                        <img class="imgTopGrid" src="./images/shapes/145.png" alt="" hidden/>
                         <span style="color:black">           </span>
                         <span style="color:green; font-weight:bold">   </span>
                     </div>
@@ -319,7 +316,7 @@
                 <div class="upperDiv" style="text-align: center">
                     <p style="font-weight: bold"> </p>
                     <div class="upperDivImage">
-                        <img class="" src="./images/images/resources/budget.ai" alt="" srcset="" />
+                        <img class="" src="./images/images/resources/budget2fill.ai" alt="" srcset="" />
                     </div>
                     <p>BUDGET</p>
 
