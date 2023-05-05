@@ -1,19 +1,51 @@
 Time Log
-10/03/2022: 12:25pm - 01:15pm  Face to Face meeting with Senior Design Team and Advisor to discuss project
-10/05/2022: 07:35pm - 08:23pm  Downloaded all the games and flash player. Read article Environmental Systems Simulations for Carbon, Energy, Nitrogen, Water, and Watersheds: Design Principles and Pilot Testing
+10/3/2022: 12:25pm - 1:15pm  Face to Face meeting with Senior Design Team and Advisor to discuss project
+10/5/2022: 7:35pm - 8:23pm  Downloaded all the games and flash player. Read article Environmental Systems Simulations for Carbon, Energy, Nitrogen, Water, and Watersheds: Design Principles and Pilot Testing
 10/10/2022: 11:00pm - 12:23am  Study HTML5 
-10/13/2022: 03:00pm - 05:00pm  Research how to use and set up GitHub
-10/17/2022: 12:25pm - 01:15pm  Face to Face meeting withSenior Design Team and Advisor
-10/23/2022: 07:00pm - 10:00pm  Setting up GitHub repository, adding code. 
+10/13/2022: 3:00pm - 5:00pm  Research how to use and set up GitHub
+10/17/2022: 12:25pm - 1:15pm  Face to Face meeting withSenior Design Team and Advisor
+10/23/2022: 7:00pm - 10:00pm  Setting up GitHub repository, adding code. 
 10/28/2022: 10:30pm - 11:15pm  Researching Flash to HTML5, Downloading and installing Adobe Creative Cloud and Character Animator 
-11/02/2022: 08:00pm - 11:45pm  Tested games and experimented with winning results. Worked on pre proposal with team. 
-11/07/2022: 12:25pm - 01:15pm  Face to Face meeting with Senior Design Team and Advisor for check-in progress. 
-11/22/2022: 08:00pm - 11:30pm  Worked on react project for practice for senior design project. Worked on proposal with team. 
-12/04/2022: 09:00pm - 11:00pm  PowerPoint presentation work with team 
-12/05/2022: 12:25pm - 01:15pm  Face to Face meeting with senior design team and advisor to discuss progress.
-12/29/2022: 02:15am - 04:50am  Worked on making HTML5 webpage to display project progress
-01/04/2023: 08:37pm - 10:48pm  Designing html and css style for webpage to house simulation
-01/11/2023: 11:12am - 01:27pm  Worked on designing webpage and style of simulation
-01/15/2023: 09:45pm - 01:28am  Added dropdown buttons for html page for year, difficulty, new game, save game, and load game 
-01/16/2023: 06:00pm - 08:05pm  HTML5 tutorials, added UI buttons, and title to canvas 
-01/26/2023: 10:30pm - 12:49am  Adjusted title to HTML page. Completed HTML5 tutorial. Added objectives checkbox
+11/2/2022: 8:00pm - 11:45pm  Tested games and experimented with winning results. Worked on pre proposal with team. 
+11/7/2022: 12:25pm - 1:15pm  Face to Face meeting with Senior Design Team and Advisor for check-in progress. 
+11/22/2022: 8:00pm - 11:30pm  Worked on react project for practice for senior design project. Worked on proposal with team. 
+12/4/2022: 9:00pm - 11:00pm  PowerPoint presentation work with team 
+12/5/2022: 12:25pm - 1:15pm  Face to Face meeting with senior design team and advisor to discuss progress.
+12/29/2022: 2:15am - 4:50am  Worked on making HTML5 webpage to display project progress
+1/4/2023: 8:37pm - 10:48pm  Designing html and css style for webpage to house simulation
+1/11/2023: 11:12am - 1:27pm  Worked on designing webpage and style of simulation
+1/15/2023: 9:45pm - 1:28am  Added dropdown buttons for html page for year, difficulty, new game, save game, and load game 
+1/16/2023: 6:00pm - 8:05pm  HTML5 tutorials, added UI buttons, and title to canvas 
+1/26/2023: 10:30pm - 12:49am  Adjusted title to HTML page. Completed HTML5 tutorial. Added objectives checkbox
+2/2/2023: 12:00pm - 12:30pm  Met with Dr. Xiong and team
+2/8/2023: 7:27pm - 9:16pm  Complete objectives checkbox, objective left corner box, and plan div container
+2/9/2023: 12:00pm - 12:30pm  Met with Dr. Xiong to discuss progress
+2/10/2023: 3:19pm - 5:34pm  Attemptd creating custom sliders to implement into canvas
+2/12/2023: 11:21am - 1:09pm  HTML5 game tutorial, placing custom sliders into canvas
+2/16/2023: 12:00pm - 12:30pm  Met with Dr. Xiong to discuss progress
+2/20/2023: 12:12am - 1:45am  Added images to canvas
+2/22/2023: 9:34pm - 11:57pm  Added JavaScript for load, save, and new game buttons
+2/24/2023: 4:54pm - 6:12pm  React tutorial 
+3/2/2023: 12:00pm - 12:30pm  Met with Dr. Xiong to discuss progress
+3/6/2023: 8:00pm - 10:00pm  Senior design progress report with team
+3/8/2023: 12:45pm - 1:36pm  Created divs for interaction with sliders
+3/12/2023: 4:18am - 6:22am  Worked on completing divs on canvas
+3/17/2023: 12:23am - 4:12am  Started new project without use of canvas, added color, font styles, load, save, new game buttons, dropdown menu for year, difficulty, energy sector
+3/21/2023: 7:54am - 9:43am  Worked on style.css for grid items of images and sliders
+3/22/2023: 3:12pm - 5:46pm  Worked on style.css for images and the plan and objective boxes
+3/26/2023: 8:38am - 11:27am  Adding values for save, load, new game in script.js
+3/28/2023: 7:21pm - 9:18pm  Building js for energy sector
+4/1/2023: 9:34am - 10:26am  Started individual html pages for each year
+4/2/2023: 1:12am - 2:44am  Attempted html5 game using gdevelop.io
+4/5/2023: 8:17pm - 9:35pm  Added images from resource file to html, searched new energy image for progress bar
+4/7/2023: 2:12pm - 3:06pm  Design cube images for div container repalcements
+4/9/2023: 11:25am - 2:13pm  Attempted custom sliders for page, uploaded work to GitHub
+4/13/2023: 12:00pm - 12:30pm  Met with Dr.Xiong and team
+4/16/2023: 8:28am - 9:17am  Merged html pages from dropdown menu 
+4/20/2023: 9:43pm - 10:52pm  Worked on final draft with team
+4/24/2023: 5:32pm - 5:48pm  Sent images and objectives of game for poster
+4/26/2023: 10:03pm - 10:42pm  Compiled and sent game data to team
+4/27/2023: 12:00pm - 12:30pm  Met with Dr.Xiong and team
+4/27/2023: 8:11pm - 9:37pm  Worked on final report with team 
+5/4/2023: 8:30pm - 9:00pm  Met team for senior design video submission
+5/5/2023: 12:32am - 1:15am  Completed journal entries
